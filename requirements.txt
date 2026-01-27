@@ -1,0 +1,24 @@
+# Dash Core
+dash>=3.0.0
+flask>=3.0.0
+
+# Feffery Components
+feffery-antd-components>=0.3.0
+feffery-utils-components>=0.3.0
+feffery-antd-charts>=0.1.0
+feffery-infographic>=0.1.5
+feffery-dash-utils>=0.1.0
+
+# AI Agent
+agno>=1.0.0
+
+# Data Processing
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Environment
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+
+# Production Server (Windows)
+waitress>=3.0.0

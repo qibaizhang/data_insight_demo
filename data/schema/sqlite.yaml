@@ -1,0 +1,64 @@
+# SQLite Schema Configuration
+# This file supplements auto-discovered schema with descriptions and metadata
+
+tables:
+  # Example table configuration
+  # Users table example
+  users:
+    description: "用户信息表，存储系统用户的基本信息"
+    columns:
+      - name: id
+        type: INTEGER
+        description: "用户唯一标识"
+      - name: username
+        type: TEXT
+        description: "用户名"
+      - name: email
+        type: TEXT
+        description: "电子邮箱"
+      - name: created_at
+        type: DATETIME
+        description: "创建时间"
+      - name: status
+        type: INTEGER
+        description: "状态：0-禁用，1-启用"
+
+  # Orders table example
+  orders:
+    description: "订单表，记录用户的购买订单"
+    columns:
+      - name: id
+        type: INTEGER
+        description: "订单唯一标识"
+      - name: user_id
+        type: INTEGER
+        description: "关联用户ID"
+      - name: total_amount
+        type: REAL
+        description: "订单总金额"
+      - name: order_date
+        type: DATETIME
+        description: "下单时间"
+      - name: status
+        type: TEXT
+        description: "订单状态：pending/paid/shipped/completed/cancelled"
+
+  # Products table example
+  products:
+    description: "商品表，存储商品信息"
+    columns:
+      - name: id
+        type: INTEGER
+        description: "商品唯一标识"
+      - name: name
+        type: TEXT
+        description: "商品名称"
+      - name: category
+        type: TEXT
+        description: "商品类别"
+      - name: price
+        type: REAL
+        description: "商品单价"
+      - name: stock
+        type: INTEGER
+        description: "库存数量"
