@@ -2,6 +2,23 @@
 
 基于 feffery-dash 和 agno 构建的智能数据分析 Web 应用演示，支持自然语言数据查询、可视化和报告生成。
 
+## 界面预览
+
+### 主界面
+![主界面](img/01-main.png)
+
+### 数据表查询
+![数据表查询](img/02-data-table.png)
+
+### 图表可视化
+![图表可视化](img/03-chart.png)
+
+### Markdown 报告
+![Markdown报告](img/04-markdown-report.png)
+
+### 信息图报告
+![信息图报告](img/05-infographic.png)
+
 ## 功能特性
 
 ### 核心功能
