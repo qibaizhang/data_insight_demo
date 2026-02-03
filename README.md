@@ -2,6 +2,31 @@
 
 基于 feffery-dash 和 agno 构建的智能数据分析 Web 应用演示，支持自然语言数据查询、可视化和报告生成。
 
+---
+
+## 🤖 100% AI 编程完成
+
+> **本项目完全由 AI 编程完成！** 使用 [Claude Code](https://github.com/anthropics/claude-code) + 两个自定义 Skills，通过自然语言对话的方式完成了整个项目的开发。
+
+### 使用的 Skills
+
+本项目开发过程中使用了 `skills/` 目录下的两个 Claude Code Skills：
+
+| Skill | 说明 |
+|-------|------|
+| **feffery-dash** | Feffery-Dash 全栈开发辅助，包含 fac/fuc/fact/fmc 等组件库的使用指南 |
+| **agno-agent-builder** | Agno 智能体开发框架指南，用于构建 AI Agent 和工具集成 |
+
+### 如何使用这些 Skills
+
+1. 安装 [Claude Code](https://github.com/anthropics/claude-code)
+2. 将 `skills/` 目录下的 skill 文件夹复制到你的 Claude Code skills 目录
+3. 在 Claude Code 中即可使用这些 skills 进行 AI 辅助开发
+
+> 💡 这证明了：借助合适的 Skills，AI 可以高效地完成复杂的全栈 Web 应用开发！
+
+---
+
 ## 界面预览
 
 ### 主界面
